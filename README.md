@@ -3,6 +3,8 @@
 Footsy is a responsive web app that displays real-time and upcoming football matches using data from [football-data.org](https://www.football-data.org/). Built with **React**, **TypeScript**, **Tailwind CSS**, and **Zustand**, it showcases modern frontend practices and clean UI design.
 
 ---
+![App Preview](public/Footsy.png)
+
 
 ## 📋 Table of Contents
 
