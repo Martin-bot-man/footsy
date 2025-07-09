@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@keyframes dots {
+  0%   { content: ""; }
+  25%  { content: "."; }
+  50%  { content: ".."; }
+  75%  { content: "..."; }
+  100% { content: ""; }
+}
+
+.dots::after {
+  content: "";
+  animation: dots 1s steps(4, end) infinite;
+}
